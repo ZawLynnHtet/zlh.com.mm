@@ -308,7 +308,7 @@ const SkillsConstellationVisualization = () => {
   return (
     <>
       <Helmet>
-        <title>Skills Constellation - ZawLynn Portfolio</title>
+        <title>Zaw Lynn Htet - Developer</title>
         <meta name="description" content="Explore Zaw Lynn Htet's technical skills through an interactive 3D constellation visualization. Discover proficiency levels, experience, and project applications." />
         <meta name="keywords" content="skills, technical expertise, React, TypeScript, Node.js, 3D visualization, web development" />
       </Helmet>
