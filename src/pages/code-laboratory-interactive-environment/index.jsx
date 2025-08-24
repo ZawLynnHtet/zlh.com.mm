@@ -364,7 +364,7 @@ function ParentComponent() {
   return (
     <div className="min-h-screen bg-background">
       <Helmet>
-        <title>Code Laboratory - Interactive Development Environment | ZawLynn Portfolio</title>
+        <title>Code Laboratory | Zaw Lynn Htet</title>
         <meta name="description" content="Explore interactive coding environment with algorithm visualizations, React component builder, performance benchmarks, and coding challenges. Experience hands-on development tools and techniques." />
         <meta name="keywords" content="code laboratory, algorithm visualization, React components, performance optimization, coding challenges, interactive development" />
       </Helmet>

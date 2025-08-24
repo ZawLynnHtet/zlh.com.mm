@@ -336,7 +336,7 @@ const ProfessionalStoryJourney = () => {
   return (
     <>
       <Helmet>
-        <title>Professional Story & Journey - Zaw Lynn Htet | React Developer</title>
+        <title>Professional Story & Journey | Zaw Lynn Htet</title>
         <meta name="description" content="Explore Zaw Lynn Htet's professional journey from early programming projects to becoming a React specialist and 3D web developer. Interactive timeline showcasing growth, achievements, and cultural perspectives." />
         <meta name="keywords" content="professional journey, React developer, 3D web development, career timeline, Myanmar developer, cultural background, skills progression" />
         <meta property="og:title" content="Professional Story & Journey - Zaw Lynn Htet" />
