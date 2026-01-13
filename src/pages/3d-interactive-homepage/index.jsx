@@ -69,7 +69,7 @@ const InteractiveHomepage = () => {
           <InteractiveParticleSystem />
 
           {/* Floating code fragments */}
-          <FloatingCodeFragments />
+          {/* <FloatingCodeFragments /> */}
         </div>
 
         {/* Content Layers */}
@@ -92,7 +92,7 @@ const InteractiveHomepage = () => {
           </section>
 
           {/* Navigation Section */}
-          <section className="py-20">
+          {/* <section className="py-20">
             <div className="container mx-auto px-6">
               <motion.div
                 className="text-center mb-16"
@@ -111,15 +111,14 @@ const InteractiveHomepage = () => {
                 </p>
               </motion.div>
 
-              {/* 3D Navigation */}
               <div className="relative h-[600px] lg:h-[700px]">
                 <Navigation3D />
               </div>
             </div>
-          </section>
+          </section> */}
 
           {/* Experience Features */}
-          <section className="py-60 bg-card/20 backdrop-blur-sm">
+          <section className="py-30 bg-card/20 backdrop-blur-sm">
             <div className="container mx-auto px-6">
               <motion.div
                 className="grid md:grid-cols-3 gap-8"
@@ -169,10 +168,10 @@ const InteractiveHomepage = () => {
         </div>
 
         {/* Performance Indicators */}
-        <PerformanceIndicators />
+        {/* <PerformanceIndicators /> */}
 
         {/* Audio Control */}
-        <motion.button
+        {/* <motion.button
           className="fixed bottom-6 left-6 z-50 transition-all duration-300"
           onClick={handleAudioToggle}
           whileHover={{ scale: 1.1 }}
@@ -187,7 +186,7 @@ const InteractiveHomepage = () => {
           spinDuration={20}
           className="custom-class"
         />
-        </motion.button>
+        </motion.button> */}
 
         {/* Ambient lighting effects */}
         <div className="absolute inset-0 pointer-events-none">

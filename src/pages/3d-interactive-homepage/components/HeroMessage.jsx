@@ -195,7 +195,7 @@ const HeroMessage = () => {
         </motion.button>
       </motion.div>
       {/* Scroll indicator */}
-      <motion.div
+      {/* <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -215,7 +215,7 @@ const HeroMessage = () => {
         <p className="font-ui text-xs text-muted-foreground mt-2">
           Scroll to explore
         </p>
-      </motion.div>
+      </motion.div> */}
       {/* Background text effects */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-5">
         <motion.div

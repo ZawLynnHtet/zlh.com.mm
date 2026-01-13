@@ -37,7 +37,7 @@ const ConstellationFilters = ({
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0 lg:space-x-6">
         
         {/* Search */}
-        <div className="flex-1 max-w-md">
+        {/* <div className="flex-1 max-w-md">
           <div className="relative">
             <Icon 
               name="Search" 
@@ -60,7 +60,7 @@ const ConstellationFilters = ({
               </button>
             )}
           </div>
-        </div>
+        </div> */}
 
         {/* Category Filter */}
         <div className="flex flex-wrap gap-2">

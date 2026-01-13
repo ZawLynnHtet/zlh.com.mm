@@ -19,12 +19,12 @@ const Routes = () => {
         {/* Define your route here */}
         {/* <Route path="/" element={<InteractiveHomepage />} /> */}
         <Route path="/" element={<Navigate to="/3d-interactive-homepage" replace />} />
-        <Route path="/code-laboratory-interactive-environment" element={<CodeLaboratoryInteractiveEnvironment />} />
+        {/* <Route path="/code-laboratory-interactive-environment" element={<CodeLaboratoryInteractiveEnvironment />} /> */}
         <Route path="/skills-constellation-visualization" element={<SkillsConstellationVisualization />} />
         <Route path="/project-universe-gallery" element={<ProjectUniverseGallery />} />
         <Route path="/professional-story-journey" element={<ProfessionalStoryJourney />} />
         <Route path="/3d-interactive-homepage" element={<InteractiveHomepage />} />
-        <Route path="/innovation-playground-experiments" element={<InnovationPlaygroundExperiments />} />
+        {/* <Route path="/innovation-playground-experiments" element={<InnovationPlaygroundExperiments />} /> */}
         <Route path="*" element={<NotFound />} />
       </RouterRoutes>
       </ErrorBoundary>

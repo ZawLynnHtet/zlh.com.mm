@@ -5,20 +5,20 @@ const FloatingCodeFragments = () => {
   const containerRef = useRef(null);
 
   const codeFragments = [
-    {
-      id: 1,
-      language: "React",
-      code: `const Portfolio = () => {
-  return (
-    <div className="immersive-3d">
-      <Experience />
-    </div>
-  );
-};`,
-      position: { x: 20, y: 15 },
-      rotation: { x: 15, y: 45 },
-      color: "from-accent to-brand-gray",
-    },
+//     {
+//       id: 1,
+//       language: "React",
+//       code: `const Portfolio = () => {
+//   return (
+//     <div className="immersive-3d">
+//       <Experience />
+//     </div>
+//   );
+// };`,
+//       position: { x: 20, y: 15 },
+//       rotation: { x: 15, y: 45 },
+//       color: "from-accent to-brand-gray",
+//     },
     {
       id: 2,
       language: "TypeScript",

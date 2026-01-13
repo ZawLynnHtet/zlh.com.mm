@@ -227,7 +227,7 @@ const ConstellationView = ({
         </div>
       </div>
       {/* Legend */}
-      <div className="absolute bottom-4 right-4 bg-card/80 backdrop-blur-sm border border-border/30 rounded-lg p-3 space-y-2">
+      {/* <div className="absolute bottom-4 right-4 bg-card/80 backdrop-blur-sm border border-border/30 rounded-lg p-3 space-y-2">
         <div className="text-xs font-medium text-foreground mb-2">Legend</div>
         <div className="flex items-center space-x-2 text-xs text-muted-foreground">
           <div className="w-3 h-3 bg-accent/40 rounded-full"></div>
@@ -241,7 +241,7 @@ const ConstellationView = ({
           <div className="w-4 h-0.5 bg-accent/40"></div>
           <span>Connections</span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

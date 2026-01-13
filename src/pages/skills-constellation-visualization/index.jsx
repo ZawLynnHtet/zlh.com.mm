@@ -77,42 +77,42 @@ const SkillsConstellationVisualization = () => {
         { year: '2024', title: 'Performance Optimization', description: 'Optimized APIs for high-traffic applications' }
       ]
     },
-    {
-      id: 'nextjs',
-      name: 'Next.js',
-      category: 'Frontend',
-      proficiency: 92,
-      experience: 2.5,
-      projectCount: 15,
-      isNew: false,
-      icon: 'Layers',
-      description: `Expert in Next.js for full-stack React applications with SSR, SSG, API routes, and modern deployment strategies.`,
-      connections: ['react', 'typescript', 'vercel'],
-      strengths: ['SSR/SSG', 'API Routes', 'Performance', 'SEO Optimization'],
-      timeline: [
-        { year: '2021', title: 'Next.js Introduction', description: 'Started with Next.js for better SEO and performance' },
-        { year: '2022', title: 'Full-Stack Apps', description: 'Built complete applications with API routes' },
-        { year: '2023', title: 'App Router', description: 'Migrated to new App Router architecture' },
-        { year: '2024', title: 'Edge Functions', description: 'Implemented edge computing solutions' }
-      ]
-    },
-    {
-      id: 'threejs',
-      name: 'Three.js',
-      category: 'Frontend',
-      proficiency: 75,
-      experience: 1.5,
-      projectCount: 8,
-      isNew: true,
-      icon: 'Box',
-      description: `Growing expertise in 3D web development with Three.js, WebGL, and interactive 3D experiences.`,
-      connections: ['react', 'webgl'],
-      strengths: ['3D Modeling', 'WebGL', 'Animations', 'Interactive Scenes'],
-      timeline: [
-        { year: '2023', title: 'Three.js Basics', description: 'Started learning 3D web development' },
-        { year: '2024', title: 'Interactive 3D', description: 'Built complex interactive 3D experiences' }
-      ]
-    },
+    // {
+    //   id: 'nextjs',
+    //   name: 'Next.js',
+    //   category: 'Frontend',
+    //   proficiency: 92,
+    //   experience: 2.5,
+    //   projectCount: 15,
+    //   isNew: false,
+    //   icon: 'Layers',
+    //   description: `Expert in Next.js for full-stack React applications with SSR, SSG, API routes, and modern deployment strategies.`,
+    //   connections: ['react', 'typescript', 'vercel'],
+    //   strengths: ['SSR/SSG', 'API Routes', 'Performance', 'SEO Optimization'],
+    //   timeline: [
+    //     { year: '2021', title: 'Next.js Introduction', description: 'Started with Next.js for better SEO and performance' },
+    //     { year: '2022', title: 'Full-Stack Apps', description: 'Built complete applications with API routes' },
+    //     { year: '2023', title: 'App Router', description: 'Migrated to new App Router architecture' },
+    //     { year: '2024', title: 'Edge Functions', description: 'Implemented edge computing solutions' }
+    //   ]
+    // },
+    // {
+    //   id: 'threejs',
+    //   name: 'Three.js',
+    //   category: 'Frontend',
+    //   proficiency: 75,
+    //   experience: 1.5,
+    //   projectCount: 8,
+    //   isNew: true,
+    //   icon: 'Box',
+    //   description: `Growing expertise in 3D web development with Three.js, WebGL, and interactive 3D experiences.`,
+    //   connections: ['react', 'webgl'],
+    //   strengths: ['3D Modeling', 'WebGL', 'Animations', 'Interactive Scenes'],
+    //   timeline: [
+    //     { year: '2023', title: 'Three.js Basics', description: 'Started learning 3D web development' },
+    //     { year: '2024', title: 'Interactive 3D', description: 'Built complex interactive 3D experiences' }
+    //   ]
+    // },
     {
       id: 'mongodb',
       name: 'MongoDB',
@@ -187,23 +187,23 @@ const SkillsConstellationVisualization = () => {
         { year: '2024', title: 'Infrastructure as Code', description: 'Implemented CloudFormation templates' }
       ]
     },
-    {
-      id: 'graphql',
-      name: 'GraphQL',
-      category: 'Backend',
-      proficiency: 73,
-      experience: 1.5,
-      projectCount: 7,
-      isNew: true,
-      icon: 'Share2',
-      description: `Growing expertise in GraphQL API development with Apollo Server and client-side integration.`,
-      connections: ['nodejs', 'apollo'],
-      strengths: ['Schema Design', 'Resolvers', 'Apollo Server', 'Client Integration'],
-      timeline: [
-        { year: '2023', title: 'GraphQL Introduction', description: 'Started learning GraphQL concepts' },
-        { year: '2024', title: 'Production APIs', description: 'Built production GraphQL APIs' }
-      ]
-    },
+    // {
+    //   id: 'graphql',
+    //   name: 'GraphQL',
+    //   category: 'Backend',
+    //   proficiency: 73,
+    //   experience: 1.5,
+    //   projectCount: 7,
+    //   isNew: true,
+    //   icon: 'Share2',
+    //   description: `Growing expertise in GraphQL API development with Apollo Server and client-side integration.`,
+    //   connections: ['nodejs', 'apollo'],
+    //   strengths: ['Schema Design', 'Resolvers', 'Apollo Server', 'Client Integration'],
+    //   timeline: [
+    //     { year: '2023', title: 'GraphQL Introduction', description: 'Started learning GraphQL concepts' },
+    //     { year: '2024', title: 'Production APIs', description: 'Built production GraphQL APIs' }
+    //   ]
+    // },
     {
       id: 'python',
       name: 'Python',
@@ -354,8 +354,7 @@ const SkillsConstellationVisualization = () => {
                     Explore Constellation
                   </Button>
                   <Button
-                    variant="outline"
-                    className="border-accent/30 text-accent hover:bg-accent/10"
+                    className="border-accent/30 text-accent"
                     iconName="BarChart3"
                     iconPosition="left"
                     onClick={() => setShowStats(!showStats)}
